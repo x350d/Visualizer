@@ -5,7 +5,6 @@
     <artifactId>visualiser</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
@@ -40,7 +39,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.4</version>
+            <version>1.18.32</version>
         </dependency>
         <!-- For Lombok -->
         <dependency>
@@ -75,7 +74,7 @@
                         **<path>
                         <groupId>org.projectlombok</groupId>
                         <artifactId>lombok</artifactId>
-                        <version>1.18.4</version>
+                        <version>1.18.32</version>
                     </path>**
                     </annotationProcessorPaths>
                     <release>11</release>

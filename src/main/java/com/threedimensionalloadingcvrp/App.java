@@ -10,11 +10,11 @@ public class App extends Application {
     /**
      * The constant representing the window width.
      */
-    public static final int WIN_WIDTH = 1024;
+    public static final int WIN_WIDTH = 1800;
     /**
      * The constant representing the window height.
      */
-    public static final int WIN_HEIGHT = 600;
+    public static final int WIN_HEIGHT = 1000;
 
     /**
      * The entry point of application.

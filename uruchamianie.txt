@@ -1,0 +1,6 @@
+Do uruchomienia wizualizatora potrzebne jest IDE, testowane na IntelliJ.
+
+Przed uruchomieniem do konfiguracji należy dodać do opcji maszyny wirtualnej opcję:
+-Dprism.forceGPU=true
+
+Następnie należy zbudować projekt i uruchomić klasę package com.threedimensionalloadingcvrp.App

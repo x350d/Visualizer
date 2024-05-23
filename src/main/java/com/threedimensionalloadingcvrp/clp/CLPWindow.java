@@ -44,7 +44,7 @@ public class CLPWindow extends Stage {
         content = new BorderPane();
 
         // The 3D View must be a SubScene
-        subScene = new SubScene(vehicle3D, App.WIN_WIDTH * 0.9, App.WIN_HEIGHT / 2.0, true,
+        subScene = new SubScene(vehicle3D, App.WIN_WIDTH * 0.9, App.WIN_HEIGHT / 1.5, true,
                 SceneAntialiasing.BALANCED);
         PerspectiveCamera camera = new PerspectiveCamera();
         camera.setNearClip(0.00001);
